@@ -37,6 +37,10 @@ RATE_LIMIT_PERIOD_MINUTES=10
 3. Under "Bot Token Scopes", click "Add an OAuth Scope"
 4. Add the `chat:write` permission (this allows the app to send messages)
 5. You may also want to add `chat:write.public` if you need to post to public channels without being invited
+6. You may also need these `channels:read` to view basic information about public channels in a workspace
+7. You may also need these `groups:read` to view basic information about private channels that this app has been added to
+8. You may also need these `im:read` to view basic information about direct messages that this app has been added to
+9. You may also need these `mpim:read` to view basic information about group direct messages that TestApp has been added to
 
 #### Installing the App to Your Workspace:
 
